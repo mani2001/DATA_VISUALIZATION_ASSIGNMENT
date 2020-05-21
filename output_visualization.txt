@@ -1,0 +1,355 @@
+reading the mars_crater csv file...
+removing rows which do not have a value for Morphology ejecta 1 (i.e. NA)...
+value counts for the different types of ejecta 1 data for the existing cases
+DLEPS/DLEPC         5
+MLERS             476
+DLEPC/Rd/DLEPS      2
+SLERCPd            10
+SLEPC/Rd           46
+Name: MORPHOLOGY_EJECTA_1, dtype: int64
+
+percentage values of different types of ejecta
+DLEPS/DLEPC                    0.011204
+MLERS                          1.066667
+DLEPC/Rd/DLEPS                 0.004482
+SLERCPd                        0.022409
+SLEPC/Rd                       0.103081
+DLERC/DLEPd                    0.002241
+DLERSRd                        0.004482
+Rd/DLEPS/DLERS                 0.031373
+SLERS/Rd/SLERS                 0.002241
+DLSPC                          0.002241
+Rd/MLEPC                       0.004482
+Rd/DLERC/DLERSRd               0.002241
+DLEPSPd                        0.004482
+DLEPC/DPEPCPd                  0.002241
+DLERC/DLERS/Rd                 0.006723
+Rd/DLERC                       0.020168
+Rd/DLEPS                       0.307003
+DLEPS                          1.196639
+SLERC                          2.724930
+SLEPSRd                        0.006723
+DLEPS/DLEPd                    0.006723
+MLEPS                          0.082913
+SLEPS/SLERS                    0.004482
+SLEPd                          0.098599
+Rd/SPERS                       0.002241
+DLERC/Rd/DLEPS                 0.008964
+MLEPS/MLERS/MLERS              0.008964
+SLERS                         10.819048
+DLEPCPd/DLEPC                  0.002241
+DLERC/DLEPC                    0.053782
+DLERS                          2.626331
+DLEPC                          0.519888
+DLEPCPd                        0.015686
+Rd/DLERS                       0.739496
+Rd/SLERS                       1.243697
+SLERS/Rd                       0.629692
+SLEPCPd/Rd                     0.002241
+Rd/DLERS/DLEPS                 0.004482
+DLERS/Rd/DLERS                 0.008964
+DLERS/DLEPC                    0.002241
+DLEPC/DLERS/Rd                 0.004482
+DLERC/Rd                       0.013445
+MLEPC/MLERC/MLERS              0.002241
+DLEPC/DLERC                    0.024650
+Rd/DLERC/DLEPC                 0.006723
+DLEPC/DLEPSPd                  0.006723
+MLEPC/MLERS/MLERS/Rd           0.004482
+MLEPC/MLEPS/MLERS              0.002241
+Rd/SLERC                       0.291317
+Rd/MLEPS                       0.056022
+MLERS/MLERS/Rd/MLERS           0.002241
+SLEPS                         11.090196
+DLERC/Rd/DLEPC                 0.002241
+DLERS/DLERSRd                  0.004482
+SLEPSPd/Rd                     0.002241
+DLERC/DLERS                    0.246499
+DLERC                          0.273389
+Rd/DLEPC/DLEPS                 0.116527
+RD/SLEPC                       0.002241
+Rd/DLEPCS/DLERS                0.002241
+Rd/SLEPCRd                     0.002241
+DLEPS/DLRES                    0.002241
+SLEPS/Rd                       0.105322
+Rd/MLERS                       0.445938
+DLEPC/DLERS                    0.192717
+DLERC/DLRPS                    0.002241
+MLERC/MLERS/MLEPS              0.002241
+MLERC/MLEPS/MLEPS              0.002241
+DLERS/DLEPCPd                  0.002241
+MLEPC/MLEPC/MLEPS              0.002241
+DLEPS/DLERS/Rd                 0.006723
+DLERS/DLEPS                    0.044818
+Rd/MLEPC/MLEPC/MLEPS           0.002241
+Rd/MLERS/Rd                    0.002241
+MLERS/MLERS/Rd/MLEPS           0.002241
+Rd/MLEPC/MLERS/MLERS/MLERS     0.004482
+SLERSPd                        0.035854
+DLEPCPd/DLEPSPd                0.002241
+MLEPC/MLERS/MLERS              0.004482
+SLErS                          0.002241
+Rd/MLEPS/MLERS/MLERS           0.002241
+Rd/SLEPC                       0.542297
+MLERS/MLEPC/MLERS              0.002241
+DLERCPd/DLERSPd                0.002241
+Rd/DLEPC                       0.071709
+MLEPC/MLEPS/MLEPS              0.013445
+DLERC/Rd/DLERS                 0.006723
+DLERS/Rd/DLEPS                 0.004482
+MLERC/MLEPS/MLERS              0.004482
+Rd/MLEPC/MLERS/MLERS           0.008964
+DLEPd                          0.002241
+SLEPC/SLEPS                    0.006723
+SLERC/Rd                       0.141176
+MLERSRd                        0.002241
+DLEPS/DLEPCPd                  0.004482
+Rd/MLERC/MLERS/MLERS           0.004482
+Rd/DLERC/DLEPS                 0.024650
+Rd/SLEPSPd                     0.002241
+DLEPC/Rd/DLERS                 0.002241
+Rd/DLEPC/DLEPSPd               0.002241
+MLEPC                          0.004482
+Rd/DLERC/DLERS                 0.015686
+Rd/SLERCPd                     0.002241
+Rd/SLERS/Rd                    0.002241
+DLEPC/Rd                       0.006723
+DLERS/DLERC                    0.002241
+Rd/MLERC                       0.002241
+DLERC/DLEPCPd                  0.004482
+Rd                            55.780392
+SLERSRd                        0.008964
+Pd                             0.004482
+DLERC/DLEPSPd                  0.002241
+DLEPC/DLERC/Rd                 0.002241
+SLEPCRd                        0.004482
+Rd/SLERPC                      0.002241
+DLEPS/DLERS                    0.159104
+SLEPCPd                        0.165826
+Rd/MLERC/MLERS/MLEPC           0.002241
+DLEPC/DLERSRd                  0.002241
+Rd/SLEPCPd                     0.002241
+DLEPS/DLEPSPd                  0.011204
+MLERC/MLERS/MLERS/Rd           0.004482
+DLERC/Rd/SLERS                 0.002241
+Rd/MLERC/MLEPC/MLERS           0.002241
+DLEPCPd/DLERCPd                0.002241
+Rd/SLEPS                       0.806723
+MLEPC/MLERC/MSLEPS             0.002241
+DLEPC/DLEPS/Rd                 0.004482
+Rd/DLEPC/DLERSRd               0.002241
+DLERS/Rd                       0.087395
+MLERC/MLERC/MLEPS              0.011204
+MLERS/Rd                       0.022409
+MLERC/MLERS/MLERS              0.022409
+DLEPS/Rd/DLEPS                 0.006723
+MLEPS/MLERSPd/MLERSPd          0.002241
+MLEPC/MLERS/MLEPS              0.008964
+DLEPC/DLEPCPd                  0.008964
+Rd/DLEPC/DLERS                 0.073950
+Rd/SLEPd                       0.008964
+MLERS/MLERS/MLEPS              0.004482
+DLERC/DLEPC/Rd                 0.002241
+MLEPS/MLERS/MLERS/MLERS        0.002241
+Rd/SLEPC/Rd                    0.002241
+MLEPC/MLERC/MLEPS              0.004482
+DLEPC/DLEPd                    0.002241
+DLERCPd/DLEPCPd                0.002241
+DLEPC/DLEPS                    0.324930
+DLERCPd                        0.011204
+Rd/DLEPC/DLERC                 0.006723
+DLEPS/Rd                       0.008964
+SLEPC                          5.718768
+SLERC/SLEPC                    0.002241
+MLERC                          0.006723
+SLEPSPd                        0.114286
+DLERC/DLEPS                    0.237535
+Name: MORPHOLOGY_EJECTA_1, dtype: float64
+
+value counts for ejecta 2
+
+removing NA\empty values of the dataset for morphology ejecta 2
+103
+SmAm/SmBL          1
+SmSL/Sm            7
+Hu/HuAm            1
+SmSL/SmAm         13
+HuSL/HuBL/HuSp     4
+                 ..
+Sm/HuSL/SmSp       1
+SmBL/SmAm          1
+SmSL/SmBL/SmSp     1
+HuSL/SmSp         11
+HuSL/HuSL/SmSp     3
+Name: MORPHOLOGY_EJECTA_2, Length: 103, dtype: int64
+
+percentage values of different types of ejecta '2' classification
+SmAm/SmBL               0.002241
+SmSL/Sm                 0.015686
+Hu/HuAm                 0.002241
+SmSL/SmAm               0.029132
+HuSL/HuBL/HuSp          0.008964
+HuSp                    0.170308
+HuSL/SmBL/HuBL          0.002241
+HuAm/SmSp               0.002241
+HuSL                   13.689636
+HuBL/HuSL               0.022409
+SmSL/SmBL               0.047059
+HuBL/SmBL/HuBL          0.002241
+HuAm/SmSL               0.004482
+Hu/SmBL                 0.033613
+HuSL/HuBL/HuBL/HuBL     0.002241
+Sm/HuBL                 0.004482
+SmSL/HuSL               0.015686
+Sm/HuSL/HuSL            0.002241
+SmSL                    6.079552
+HuBL/HuBL/SmBL          0.002241
+SmBL/HuSL               0.002241
+Hu/HuSp/HuSp            0.002241
+HuBL/SmSL/SmSp          0.002241
+HuAm/HuBL               0.002241
+Hu/HuBL                 0.096359
+HuSL/HuSL               0.004482
+SmAm                    1.886835
+HuSL/SmBL               0.082913
+HuSL/HuSL/SmBL          0.006723
+Hu/HuBL/SmSp            0.002241
+Hu/SmSL                 0.026891
+SmSL/HuSL/HuBL          0.002241
+HuSL/HuSL/HuBL          0.029132
+Hu/HuSp                 0.020168
+HuSL/SmAm               0.020168
+SmSL/SmBL/SmBL          0.004482
+Hu/HuSL/HuSp            0.002241
+Sm/SmSp/HuSp            0.002241
+HuSL/HuAm               0.031373
+HuSL/HuLS/HuSp          0.002241
+HuBL/SmBL               0.024650
+Hu/SmAm                 0.004482
+Sm                      1.725490
+HuAm                    3.038655
+HuAM                    0.002241
+HuSp/HuBL               0.002241
+Hu/HuSL/HuBL            0.006723
+SmSL/HuSL/HuSL          0.002241
+Hu/HuSp/SmSp            0.002241
+HUBL                    0.002241
+Hu/HuBL/HuBL            0.006723
+Sm/Hu                   0.002241
+SmSL/HuBL               0.017927
+Sm/SmAm                 0.004482
+SmSL/SmSL/SmSp          0.015686
+HuSL/Sm                 0.013445
+SmBL                    2.449300
+Hu/Sm                   0.004482
+Sm/SmSp                 0.002241
+SmSL/SmSL/HuSL          0.002241
+HuSL/HuSp               0.056022
+Sm/SmBL                 0.022409
+HuSL/HuBL/HuBL          0.031373
+HUSL                    0.004482
+HuSL/HuBL/Sm            0.002241
+HuBL/SmBL/SmBL          0.004482
+HuSL/HuSL/HuSp          0.008964
+HuBL/HuSp               0.011204
+SmSL/SmSL/SmBL          0.002241
+SmSL/SmSL/HuBL          0.002241
+HuSL/HuBL/SmSp          0.002241
+SmBL/SmSp               0.002241
+HuAm/HuSp               0.004482
+HuAm/SmAm               0.013445
+HuSL/HuBL               0.457143
+HuBL/SmBL/SmSL          0.002241
+SmSp                    0.040336
+HuSL/SmSL               0.156863
+Hu/Hu/Sm                0.002241
+HuAm/HuSL               0.008964
+Sm/SmSL                 0.024650
+Hu/HuSL                 0.141176
+HuBL/SmSp               0.002241
+SmAm/SmSL               0.002241
+Sm/HuSL                 0.006723
+Hu/HuSL/HuSL            0.002241
+HuSL/HuSL/HuBL/HuBL     0.002241
+Sm/SmBL/HuBL            0.004482
+SmSL/SmSp               0.024650
+HuSL/HuBL/HuBL/HuSp     0.002241
+HuSL/SmBL/SmBL          0.002241
+SmsL                    0.004482
+HuSL/HuBL/SmBL          0.002241
+SmBL/HuBL               0.002241
+Hu                      2.928852
+HuBL                    9.913725
+HuBL/SmSL               0.002241
+HuSL/SmBL/SmSL          0.002241
+Sm/HuSL/SmSp            0.002241
+SmBL/SmAm               0.002241
+SmSL/SmBL/SmSp          0.002241
+HuSL/SmSp               0.024650
+HuSL/HuSL/SmSp          0.006723
+Name: MORPHOLOGY_EJECTA_2, dtype: float64
+
+value counts for ejecta 3
+
+removing NA\empty values of the dataset for morphology ejecta 3
+28
+Pseduo-Butterfly                    1
+Outer is Splash                    56
+Inner-most is Small-Crown           1
+Pin-Cushion / Pseudo-Butterfly      1
+Inner is Pseudo-Butterfly           1
+Sandbar                            58
+Small-Crown                       264
+Bumblebee                          18
+Pseudo-Rectangular                 26
+Inner is Small-Crown               66
+Outer is Rectangular                1
+Outer is Butterfly                  4
+Pseudo-Pin-Cushion                  1
+Inner is Butterfly                  2
+Inner is Pin-Cushion               87
+Small-Crown / Pseudo-Butterfly      1
+Splash                             55
+Butterfly                          76
+Pin-Cushion                       349
+Rectangular                        38
+Inner is Pseudo-Small-Crown         4
+Small-Crown / Sandbar               2
+Outer is Pseudo-Butterfly           4
+Pseudo-Butterfly                  118
+Pin-Cushion / Butterfly             1
+Middle is Rectangular               1
+Pseudo-Small-Crown                 56
+Inner is Pseudo-Pin-Cushion         1
+Name: MORPHOLOGY_EJECTA_3, dtype: int64
+
+percentage values of different types of ejecta '3' classification
+Pseduo-Butterfly                   0.077340
+Outer is Splash                    4.331013
+Inner-most is Small-Crown          0.077340
+Pin-Cushion / Pseudo-Butterfly     0.077340
+Inner is Pseudo-Butterfly          0.077340
+Sandbar                            4.485692
+Small-Crown                       20.417633
+Bumblebee                          1.392111
+Pseudo-Rectangular                 2.010828
+Inner is Small-Crown               5.104408
+Outer is Rectangular               0.077340
+Outer is Butterfly                 0.309358
+Pseudo-Pin-Cushion                 0.077340
+Inner is Butterfly                 0.154679
+Inner is Pin-Cushion               6.728538
+Small-Crown / Pseudo-Butterfly     0.077340
+Splash                             4.253674
+Butterfly                          5.877804
+Pin-Cushion                       26.991493
+Rectangular                        2.938902
+Inner is Pseudo-Small-Crown        0.309358
+Small-Crown / Sandbar              0.154679
+Outer is Pseudo-Butterfly          0.309358
+Pseudo-Butterfly                   9.126063
+Pin-Cushion / Butterfly            0.077340
+Middle is Rectangular              0.077340
+Pseudo-Small-Crown                 4.331013
+Inner is Pseudo-Pin-Cushion        0.077340
+Name: MORPHOLOGY_EJECTA_3, dtype: float64
